@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalculatorButtonStyle">
+        <!-- Style ini digunakan untuk semua tombol angka dan operasi pada kalkulator-->
+        <!-- Mengatur margin, warna latar, ukuran teks, dan padding -->
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:backgroundTint">#ABE5FF</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#F8232121</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CalculatorBackspaceButtonStyle">
+        <!-- Style khusus untuk tombol backspace-->
+        <!-- Warna latar yang berbeda-->
+        <item name="android:backgroundTint">#00F0F0F0</item>
+        <item name="android:textColor">#F8232121</item>
+    </style>
+</resources>
+
+
